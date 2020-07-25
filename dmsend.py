@@ -25,7 +25,7 @@ async def on_message(message):
             else:
                 try:
                     msg = message.content[4:]
-                    if message.author.id ==720927829193392189):
+                    if message.author.id ==720927829193392189:
                         embed = discord.Embed(colour=0x1DDB16, timestamp=message.created_at, title="라프라프")
                         embed.add_field(name="Laf", value=msg, inline=True)
                         embed.set_footer(text=f"discord.gg/9hBP7fP")
